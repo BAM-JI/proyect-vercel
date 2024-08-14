@@ -1,0 +1,163 @@
+.container {
+    background-color: rgb(233, 233, 233) ;
+   
+}
+.box{
+  
+    padding: 60px 120px;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px inset, rgba(0, 0, 0, 0.5) 0px -12px 30px inset, rgba(0, 0, 0, 0.12) 0px 4px 6px inset, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px inset;
+    border-radius: 20px;
+
+    border: 1px ;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: teal ;
+    border-left: 5px solid red;
+}
+.font-style{
+    font-family: "Freeman", sans-serif;
+    font-weight: 400; 
+    font-style: normal;
+    
+}
+.flexbox{
+  
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction:  center;
+    justify-content: start;
+    align-items: center ;
+    flex-wrap:  wrap;
+
+}
+
+.child1{
+   
+    height: 100px;
+    background-color: beige;
+    
+    flex: 0 0 100px; 
+}
+
+.child2{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    flex-shrink: 0;
+}
+
+.child3{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    flex-shrink: 0;
+}
+
+a {
+    background-color: powderblue;
+    transition: background-color 0.5s;
+  }
+a:hover {
+    background-color: #cf8950;
+  }
+  a:hover {
+    background: yellow;
+  } 
+
+button:hover{
+    background-color: #cf8950;
+    transition: 0.7s;
+}
+a:active{
+    background-color: green;
+}
+
+.exciting-text::after {
+    content: " <- EXCITING!";
+    color: green;
+  }
+  
+  .boring-text::after {
+    content: " <- BORING";
+    color: red;
+  }
+/* Estilo para el contenedor principal */
+.container {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Añadir comillas alrededor de una cita usando ::before y ::after */
+.quote::before {
+    content: '“'; /* Comilla de apertura */
+    font-size: 2em; /* Ajustar el tamaño de la comilla */
+    color: #666; /* Color de la comilla */
+}
+
+.quote::after {
+    content: '”'; /* Comilla de cierre */
+    font-size: 2em; /* Ajustar el tamaño de la comilla */
+    color: #666; /* Color de la comilla */
+}
+
+/* Estilo especial para la primera letra de un párrafo usando ::first-letter */
+p::first-letter {
+    font-size: 200%; /* Tamaño de fuente más grande */
+    color: #900; /* Color rojo oscuro */
+    font-weight: bold; /* Negrita */
+    float: left; /* Flotar a la izquierda */
+    margin-right: 5px; /* Espacio a la derecha */
+}
+
+/* Estilo especial para la primera línea de un párrafo usando ::first-line */
+p::first-line {
+    font-weight: bold; /* Negrita */
+    color: #0066cc; /* Color azul */
+}
+
+/* Otros estilos adicionales */
+.font-style {
+    font-family: 'Freeman', sans-serif;
+    font-size: 24px;
+}
+
+.boring-text {
+    font-style: italic;
+    color: grey;
+}
+
+.exciting-text {
+    font-style: normal;
+    color: blue;
+    font-weight: bold;
+}
+
+/* Flexbox para el contenedor de divs */
+.flexbox {
+    display: flex;
+    gap: 10px;
+}
+
+.flexbox .child1,
+.flexbox .child2,
+.flexbox .child3 {
+    width: 100px;
+    height: 100px;
+}
+
+.flexbox .child1 {
+    background-color: #ff9999;
+}
+
+.flexbox .child2 {
+    background-color: #99ff99;
+}
+
+.flexbox .child3 {
+    background-color: #9999ff;
+}
+
+Bienvenido a Universidad Tecnologica de Tehuacan
+universitario y tu estancia aqui sera la mejor, de estudiante de ingenieria a estuduante de ingenieria te deseo lo mejor.  
